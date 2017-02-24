@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github/cloudseeder/stringutil"
+)
 
 func main() {
-    fmt.Printf("Hello, Jupitor\n")
+	fmt.Printf(stringutil.Reverse("!oG olleH"))
+        fmt.Printf("And, Hello Jupiter\n")
 }
